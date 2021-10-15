@@ -1,0 +1,24 @@
+body {
+    color: aliceblue;
+
+
+    background-image: url("https://images.wallpaperscraft.ru/image/single/new_york_statue_of_liberty_nyu-york_statuya_svobody_reka_vecher_28423_1920x1080.jpg");
+}
+
+.forFlex {
+    display: flex;
+    justify-content: center;
+
+}
+
+.wraper {
+    width: 700px;
+}
+
+.sizeH1 {
+    font-size: 70px;
+}
+
+.sizeP {
+    font-size: 25px;
+}
