@@ -1,0 +1,172 @@
+
+
+.mainPart {
+    background-image: url("IMG/oktenBackground.jpg");
+    width: 1908px;
+    height: 804px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+header {
+    background-color: aliceblue;
+    height: 70px;
+    border-bottom: 1px solid #3298f2;
+}
+
+.wrapSonHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.centerH {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #303030;
+}
+
+.rightH {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.rightH img {
+    border-radius: 50%;
+
+}
+
+.blueLogo img {
+    width: 60px;
+    border-radius: 50%;
+
+
+}
+
+.mainPartLeft {
+    width: 60%;
+    height: 100%;
+}
+
+.mainPartRight {
+    margin-top: 50px;
+    display: flex;
+    align-items: unset;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+
+
+}
+
+
+.countRound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 230px;
+}
+
+.round {
+    width: 150px;
+    height: 150px;
+    border: 3px solid orange;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.round h2 {
+    color: #3298f2;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.bottomRound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 800;
+    font-size: 17px;
+}
+
+.mainPartLeft {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    height: 100%;
+    width: 700px;
+}
+
+.big909 {
+    font-size: 100px;
+    font-weight: 900;
+    color: #3298f2;
+}
+
+.bigGodJava {
+    font-size: 45px;
+    font-weight: 900;
+    color: #3298f2;
+}
+
+.leftTop {
+    display: flex;
+    align-items: start;
+
+}
+
+.leftCenter,.leftBottom,.leftTop {
+    width: 700px;
+}
+
+.leftCenterText1p {
+    color: #FF9638;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.leftCenterText2p {
+    font-weight: 900;
+    font-size: 30px;
+    color: black;
+}
+
+.bigGodJava {
+    width: 200px;
+}
+
+.leftBottom {
+
+    border: 2px gray dashed;
+    border-radius: 10px;
+}
+
+.leftBottomP1 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.leftBottomP2 {
+    font-size: 20px;
+}
