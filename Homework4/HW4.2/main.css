@@ -1,0 +1,54 @@
+.wrapper {
+    width: 1000px;
+    height: 800px;
+    background-color: gray;
+    flex-direction: column;
+
+}
+
+.header {
+
+    height: 15%;
+    background-color: #3298f2;
+}
+
+.nav {
+
+    height: 10%;
+    background-color: #0c36f2;
+}
+
+.mainAsideWrapper {
+
+    height: 65%;
+    background-color: #6611f2;
+}
+
+.main {
+    height: 100%;
+    width: 80%;
+    background-color: #eaf232;
+}
+
+.aside {
+    height: 100%;
+    width: 20%;
+    background-color: red;
+}
+
+.footer {
+
+    height: 10%;
+    background-color: #10f2cc;
+}
+
+.wrapper, .header, .nav, .main, .aside, .footer, .mainAsideWrapper, .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header, .nav, .mainAsideWrapper, .footer {
+    width: 100%;
+}
