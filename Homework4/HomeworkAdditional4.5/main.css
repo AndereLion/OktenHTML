@@ -1,0 +1,56 @@
+.wrapper {
+    width: 600px;
+    height: 500px;
+    flex-direction: column;
+}
+
+.header {
+    height: 33%;
+
+}
+
+.wrapForBottom {
+    height: 65%;
+}
+
+.bottomLeft {
+    width: 78%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.bottomRight {
+    width: 20%;
+    height: 100%;
+
+}
+
+.bottomLeftHeader, .bottomLeftFooter {
+    align-items: center;
+    height: 48.4%;
+
+}
+
+.bottomLeftBox {
+    height: 49%;
+    width: 33%;
+}
+
+.header, .bottomLeftBox, .bottomRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper, .wrapForBottom, .bottomLeft, .bottomLeftHeader, .bottomLeftFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header, .bottomRight, .bottomLeftHeader, .bottomLeftFooter {
+    background-color: #b6b6b6;
+}
+
+.header.wrapForBottom, .bottomLeftHeader, .bottomLeftFooter{
+    width: 100%;
+}
