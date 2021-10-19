@@ -1,56 +1,55 @@
 .wrapper {
+
+    flex-direction: column;
+
     width: 600px;
     height: 500px;
-    flex-direction: column;
 }
 
 .header {
     height: 33%;
-
 }
 
 .wrapForBottom {
     height: 65%;
 }
 
-.bottomLeft {
+.wrapForBottomLeft {
     width: 78%;
-    height: 100%;
     flex-direction: column;
+}
+
+.bottomLeftHeader, .bottomLeftFooter {
+    height: 48.4%;
 }
 
 .bottomRight {
     width: 20%;
-    height: 100%;
-
 }
 
-.bottomLeftHeader, .bottomLeftFooter {
-    align-items: center;
-    height: 48.4%;
-
+.bottomLeftFooterBox {
+    width: 31.8%;;
 }
 
-.bottomLeftBox {
-    height: 49%;
-    width: 33%;
-}
-
-.header, .bottomLeftBox, .bottomRight {
+.header, .bottomLeftHeader, .bottomLeftFooterBox, .bottomRight {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.wrapper, .wrapForBottom, .bottomLeft, .bottomLeftHeader, .bottomLeftFooter {
+.header, .bottomLeftHeader, .bottomLeftFooterBox, .bottomRight {
+    background-color: #b6b6b6;
+}
+
+.wrapper, .wrapForBottom, .wrapForBottomLeft, .bottomLeftFooter {
     display: flex;
     justify-content: space-between;
 }
 
-.header, .bottomRight, .bottomLeftHeader, .bottomLeftFooter {
-    background-color: #b6b6b6;
+.header, .wrapForBottom, .bottomLeftHeader, .bottomLeftFooter {
+    width: 100%;
 }
 
-.header.wrapForBottom, .bottomLeftHeader, .bottomLeftFooter{
-    width: 100%;
+.wrapForBottomLeft, .bottomRight, .bottomLeftFooterBox {
+    height: 100%;
 }
