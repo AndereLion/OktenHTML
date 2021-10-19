@@ -1,0 +1,42 @@
+.wrapper {
+    width: 500px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.topWidgets, .centerWrapper, .footer {
+    width: 100%;
+}
+
+.topWidgets {
+    height: 24%;
+    background-color: #3298f2;
+}
+
+.centerWrapper {
+    height: 24%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    height: 49%;
+    background-color: #3298f2;
+}
+
+.big, .bigger, .huge {
+    width: 32%;
+    height: 100%;
+    background-color: #1c4cf2;
+}
+.footer,.big,.bigger,.huge,.topWidgets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color: aliceblue;
+}
