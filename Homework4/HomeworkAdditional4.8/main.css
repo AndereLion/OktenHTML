@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 500px;
+    height: 600px;
+    flex-direction: column;
+
+}
+
+.header, .center, .hero, .sidebar, .extraContent, .mainContent, .overFooter, .footer {
+    width: 100%;
+}
+
+.header, .footer {
+    height: 10%;
+}
+
+.header {
+    background-color: #3367f2;
+}
+
+.footer {
+    background-color: #f2bc12;
+}
+
+.overFooter {
+    height: 15%;
+}
+
+.relatedImages, .relatedPosts, .centerRight, .centerLeft {
+    height: 100%;
+}
+
+.relatedImages {
+    width: 72.5%;
+    background-color: green;
+}
+
+.relatedPosts {
+    width: 26%;
+    background-color: pink;
+}
+
+.wrapper, .overFooter, .center, .centerLeft, .centerRight {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero {
+    height: 43%;
+    background-color: #80547b;
+}
+
+.sidebar {
+    background-color: #45801d;
+    height: 55%;
+}
+
+
+.centerLeft {
+    width: 36.5%;
+
+    flex-direction: column;
+
+}
+
+.centerRight {
+    flex-direction: column;
+    width: 62%;
+}
+
+.mainContent {
+    background-color: #f2d83c;
+    height: 68%;
+
+}
+
+.extraContent {
+    height: 30%;
+    background-color: #a58f81;
+}
+
+.center {
+    height: 62%;
+}
+
+h3 {
+    color: white;
+    font-weight: 200;
+}
+
+.header, .hero, .sidebar, .mainContent, .extraContent, .relatedImages, .relatedPosts, .footer {
+    display: flex;
+    justify-content: center;
+}
