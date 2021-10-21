@@ -1,0 +1,106 @@
+.wrapper {
+    margin: 0 auto;
+    width: 450px;
+    min-height: 900px;
+}
+.header {
+    height: 50px;
+}
+.headerIcons {
+    width: 13.5%;
+    height: 20px;
+    background-color: #b6b6b6;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.wrapperWithoutHeader {
+    flex-grow: 1;
+}
+.leftSidebar {
+    width: 22%;
+}
+.leftSidebarIcons {
+    background-color: #b6b6b6;
+    width: 80%;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.rightSide {
+    flex-grow: 3;
+}
+.rightSideHeader {
+    height: 15%;
+    justify-content: center;
+}
+.rightSideHeaderInner {
+    width: 94%;
+    height: 85%;
+    background-color: #b6b6b6;
+}
+.rightSideUnderHeader {
+    justify-content: space-around;
+    height: 8%;
+}
+
+.rightSideUnderHeader_Boxes {
+    background-color: #b6b6b6;
+    width: 19%;
+    height: 75%;
+}
+
+.rightSideCenter {
+    flex-grow: 1;
+    display: flex;
+}
+.rightSideCenter_RightSide {
+    flex-grow: 1;
+}
+.rightSideCenter_RightSide_Boxes {
+    width: 70%;
+    height: 6%;
+    background-color: #b6b6b6;
+    margin-bottom: 5px;
+}
+.rightSideCenter_LeftSide {
+    width: 78%;
+    align-items: center;
+}
+.rightSideCenter_LeftSide_Main {
+    flex-wrap: wrap;
+    height: 97%;
+    justify-content: space-evenly;
+}
+.rightSideCenter_LeftSide_Main_Boxes {
+    width: 43.5%;
+    height: 15%;
+    background-color: #b6b6b6;
+}
+.rightSideCenter_LeftSide_Footer {
+    height: 3%;
+    width: 20%;
+    background-color: #b6b6b6;
+}
+.rightSideFooter {
+    height: 9%;
+}
+.rightSideFooter p {
+    text-align: center;
+}
+
+.rightSideHeader,.rightSideFooter, .rightSideCenter_LeftSide_Main, .rightSideUnderHeader, .header {
+    width: 100%;
+}
+.rightSideCenter_LeftSide{
+    height: 100%;
+}
+.wrapper,.header,.wrapperWithoutHeader,.rightSideCenter_LeftSide,.rightSide {
+    display: flex;
+    justify-content: space-between;
+}
+.rightSideUnderHeader,.rightSideCenter_LeftSide_Main,.rightSideCenter_RightSide,.leftSidebar,.rightSideHeader{
+    display: flex;
+    align-items: center;
+}
+.wrapper,.rightSideCenter_LeftSide,.rightSideCenter_RightSide,.rightSide,.leftSidebar{
+    flex-direction: column;
+}
