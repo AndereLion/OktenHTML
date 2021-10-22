@@ -1,0 +1,181 @@
+p, h2, h3, h4 {
+    margin: 6px;
+}
+
+.wrapper {
+    margin: auto;
+    width: 800px;
+    min-height: 1000px;
+    position: relative;
+}
+
+.header {
+    height: 90px;
+    background-color: #d2d2d9;
+}
+
+.headerLeftSide {
+    width: 140px;
+    height: 53px;
+    background-color: #030f36;
+    border-radius: 10px;
+    margin-left: -6%;
+}
+
+.headerRightSide img {
+    margin-left: 20px;
+}
+
+.headerRightSide_BoxForImg {
+    display: flex;
+    width: 20px;
+    height: 30%;
+}
+
+.underHeader {
+    height: 400px;
+    background-color: #030f36;
+    color: #8553e9;
+}
+
+.underHeaderInner {
+    width: 50%;
+    height: 75%;
+    text-align: center;
+}
+
+.underHeaderInner_BottomDiv {
+    width: 120px;
+    height: 33px;
+    border-radius: 15px;
+}
+
+.absolute {
+    position: absolute;
+    top: 19.5%;
+    left: 22%;
+    width: 450px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.absoluteInside {
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+}
+
+.mainTopH3 {
+    margin-top: 17%;
+}
+
+.main {
+    height: 1600px;
+    background-color: #d2d2d9;
+}
+
+.mainBoxFor8SquaresAndText {
+    height: 400px;
+    width: 78%;
+    flex-wrap: wrap;
+}
+
+.mainBoxFor8SquaresAndText_BoxWithText {
+    width: 22%;
+    height: 40%;
+    text-align: center;
+}
+
+.mainBoxFor8SquaresAndText_BoxWithText_Square {
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+}
+
+.mainBoxFor4BigSquaresAndText {
+    height: 600px;
+    width: 78%;
+    flex-wrap: wrap;
+}
+
+.mainBoxFor4BigSquaresAndText_Box {
+    width: 47%;
+    height: 45%;
+   }
+
+.mainBoxFor4BigSquaresAndText_Square {
+        height: 55%;
+    border-radius: 15px;
+}
+
+.mainFooter {
+    height: 130px;
+
+}
+
+.mainFooterLeftSIde {
+    width: 15%;
+    height: 85%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.mainFooterRightSide {
+    width: 60%;
+    height: 100%;
+
+}
+.mainSlider{
+    width: 78%;
+    height: 160px;
+    justify-content: space-between;
+   }
+.mainSliderIcons{
+    width: 25%;
+    height: 65%;
+    border-radius: 10px;
+    }
+
+.footer {
+    height: 100px;
+    background-color: #030f36;
+}
+.footerInnerWrapper{
+    width: 30%;
+    height: 100px;
+}
+.footerInnerWrapperTop,.footerInnerWrapperBottom{
+    width: 55%;
+    height: 50%;
+}
+.footerInnerWrapperBottom a{
+    color: #8553e9;
+    text-decoration: none;
+    font-size: 10px;
+}
+.footerInnerWrapper,.footer,.mainFooter,.underHeader,.underHeaderInner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainBoxFor4BigSquaresAndText,.footerInnerWrapperTop,.footerInnerWrapperBottom,.header,.mainBoxFor8SquaresAndText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.absoluteInside,.underHeaderInner_BottomDiv,.mainBoxFor8SquaresAndText_BoxWithText_Square,.mainSliderIcons,.mainFooterLeftSIde,.mainBoxFor4BigSquaresAndText_Square{
+    background-color:#8553e9 ;
+
+}
+.header.footer,.underHeader,.main,.mainBoxFor4BigSquaresAndText_Square,.mainFooter{
+    width: 100%;
+}
+.mainSlider,.main,.mainBoxFor4BigSquaresAndText_Box{
+    display: flex;
+    align-items: center;
+}
+.underHeaderInner,.footerInnerWrapper,.mainBoxFor4BigSquaresAndText_Box,.main{
+    flex-direction: column;
+}
