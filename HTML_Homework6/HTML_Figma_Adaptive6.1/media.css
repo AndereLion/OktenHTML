@@ -1,0 +1,141 @@
+@media screen and (max-width: 375px) {
+    .wrapper {
+        width: 375px;
+        height: 800px;
+        background: url("img/hero image.png") no-repeat center/cover;
+    }
+
+    .welcomeMini {
+        align-items: center;
+        height: 140px;
+        width: 365px;
+        margin-top: 170px;
+    }
+
+    .welcomeMini h2 {
+        color: #D67E35;
+        font-size: 30px;
+    }
+
+    .welcomeMini h1 {
+        color: #D67E35;
+        font-size: 40px;
+    }
+
+    .welcomeMini_Center h4 {
+        color: #e9e9e9;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .menuButton {
+        justify-content: center;
+        background-color: #FF7400;
+        width: 137px;
+        height: 47px;
+        margin-top: 40px;
+    }
+
+    .menuButton h4 {
+        color: #e9e9e9;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .headerMini {
+        justify-content: space-between;
+        width: 100%;
+        height: 75px;
+    }
+
+    .miniLogo {
+        height: 30px;
+        width: 45px;
+        margin-left: 20px;
+    }
+
+    .welcome, .header {
+        display: none;
+    }
+
+    .wrapper2 {
+        width: 375px;
+        height: 1960px;
+        flex-direction: column;
+    }
+
+    .absoluteFor3Blocks {
+        flex-direction: column;
+        left: 20px;
+        width: 95%;
+
+    }
+
+    .ourHistory {
+        margin: 0;
+        padding-top: 850px;
+        width: 90%;
+        height: 730px;
+    }
+
+    .ourHistoryTop,.ourHistoryBottom,.welcomeMini {
+        flex-direction: column;
+    }
+
+    .ourHistoryTop > h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .ourCenter p {
+        line-height: 22px;
+    }
+
+    .ourHistoryBottom,.welcomeMini {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ourHistoryBottom h4 {
+        margin-bottom: 10px;
+    }
+
+    .designBox {
+        width: 114px;
+        height: 85px;
+        top: 2319px;
+        left: 168px
+    }
+
+    .cakeImg {
+        width: 137px;
+        height: 222px;
+        top: 2302px;
+        left: 117px;
+    }
+
+    .cafeImg {
+        width: 137px;
+        height: 205px;
+        top: 2350px;
+        left: 168px;
+    }
+
+    .spicesImg {
+        width: 125px;
+        height: 155px;
+        top: 2335px;
+        left: 15px;
+    }
+    .spicesImg,.cafeImg,.cakeImg,.designBox{
+        position: absolute;
+    }
+    .menuButton,.headerMini,.wrapper2{
+        display: flex;
+        align-items: center;
+    }
+    .ourHistoryTop > h2,.welcomeMini_Center h4,.welcomeMini h1,.welcomeMini h2 {
+
+    }
+
+}
