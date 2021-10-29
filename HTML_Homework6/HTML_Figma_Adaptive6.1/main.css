@@ -250,7 +250,7 @@ h1, h2, h3, h4, .headerRightSidePhoneAndNumber p,
 }
 .absoluteFor3Blocks_boxForH3 h3,.whiteBlock p,.ourHistoryBottom h4,.ourHistoryBottom h2,
 .ourCenter p,.ourHistoryTop > h2,.linesAndText h4,.welcome h1,.welcome h2,.headerRightSidePhoneAndNumber p{
- font-weight: 400;
+    font-weight: 400;
 }
 .viewMenu h4,.orderRequest h4,.headerCenter h4,.headerRightSidePhoneAndNumber h4{
     font-weight: 700;

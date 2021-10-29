@@ -135,6 +135,7 @@
         align-items: center;
     }
     .ourHistoryTop > h2,.welcomeMini_Center h4,.welcomeMini h1,.welcomeMini h2 {
+        font-weight: 400;
 
     }
 
