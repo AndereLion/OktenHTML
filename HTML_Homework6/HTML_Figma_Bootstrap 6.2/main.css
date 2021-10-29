@@ -1,0 +1,261 @@
+body {
+    background-color: black;
+}
+
+h1, h2, h3, h4, .headerRightSidePhoneAndNumber p,
+.headerRightSidePhoneAndNumber h4, .ourHistoryBottom h4,body {
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1440px;
+    height: 800px;
+    background: url("img/background.jpg") no-repeat center/cover;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 114px;
+    align-items: end;
+}
+
+.headerLeftSide {
+    margin-left: 165px;
+}
+
+.headerCenter {
+    align-items: end;
+    width: 23%;
+    height: 114px;
+    margin-left: 210px;
+}
+
+.headerCenter h4 {
+    margin-bottom: 26px;
+}
+
+.cartImg {
+    width: 13px;
+    height: 13px;
+    margin-bottom: 26px;
+}
+
+.lineImg {
+    margin-bottom: 7px;
+    margin-right: -25px;
+}
+
+.phoneImg {
+    width: 23px;
+    height: 23px;
+    margin-right: 9px;
+}
+
+.headerRightSidePhoneAndNumber {
+    display: flex;
+    flex-direction: column;
+    width: 154px;
+    margin-bottom: -5px;
+    margin-right: -15px;
+}
+
+.headerRightSidePhoneAndNumber p {
+    font-size: 14px;
+}
+
+.headerRightSidePhoneAndNumber h4,.linesAndText h4 {
+    font-size: 18px;
+}
+
+.headerRightSidePhoneAndNumber_Top {
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.orderRequest {
+    margin-right: 165px;
+    background-color: #FF7400;
+    width: 157px;
+    height: 47px;
+}
+
+.orderRequest h4 {
+}
+
+.welcome {
+    flex-direction: column;
+    align-items: center;
+    height: 240px;
+    width: 650px;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+.welcome h2 {
+    font-size: 50px;
+}
+
+.welcome h1 {
+    font-size: 80px;
+}
+
+.viewMenu {
+    margin-top: 20px;
+    background: #FF7400;
+    width: 137px;
+    height: 47px
+}
+
+
+
+.linesAndText {
+    width: 300px;
+    height: 25px;
+    align-items: center;
+}
+
+.linesAndText img {
+    width: 61px;
+    height: 2px;
+}
+
+
+
+.headerMini {
+    display: none;
+}
+.wrapper2 {
+    margin: 0 auto;
+    width: 1440px;
+    height: 990px;
+    background-color: #E5E5E5;
+}
+
+.ourHistory {
+    padding-top: 387px;
+    margin-left: 166px;
+    height: 410px;
+    width: 400px;
+    text-align: center;
+}
+.ourHistoryTop > h2 {
+    font-size: 54px;
+    line-height: 62px;
+    margin-left: 10px;
+}
+.ourHistoryTopOrangeH2,.welcome h2,.welcome h1 {
+    color: #D67E35;
+}
+.ourHistoryTop {
+    display: flex;
+    justify-content: center;
+}
+
+.ourCenter p {
+    font-size: 16px;
+}
+
+.ourHistoryBottom {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+
+}
+
+.ourHistoryBottom h2 {
+    color: #BC9060;
+    font-size: 40px;
+}
+
+.ourHistoryBottom h4 {
+    font-size: 20px;
+}
+
+.threeLineImg {
+    margin-right: 20px;
+}
+
+.absoluteFor3Blocks {
+    width: 74%;
+    height: 330px;
+    top: 700px;
+    left: 13%;
+
+}
+.whiteBlock {
+    background: #FFFFFF;
+    height: 337px;
+    width: 337px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whiteBlock img {
+    margin-top: 35px;
+}
+.whiteBlock p {
+    width: 80%;
+    text-align: center;
+    font-size: 26px;
+    margin: 20px 0 0;
+    color: #656363;
+}
+.absoluteFor3Blocks_boxForH3 {
+    display: flex;
+}
+.absoluteFor3Blocks_boxForH3 h3 {
+    font-size: 26px;
+}
+
+.goldH3 {
+    color: #BC9060;
+    margin-left: 10px;
+}
+
+.designBox {
+    top: 1205px;
+    right: 215px
+}
+
+.cakeImg {
+    top: 1172px;
+    right: 260px;
+}
+
+.cafeImg {
+    top: 1360px;
+    right: 166px;
+}
+
+.spicesImg {
+    top: 1200px;
+    right: 410px;
+}
+
+.spicesImg, .cafeImg, .cakeImg, .designBox, .absoluteFor3Blocks {
+    position: absolute;
+}
+
+.header, .headerCenter, .welcome, .linesAndText, .absoluteFor3Blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderRequest, .viewMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.absoluteFor3Blocks_boxForH3 h3,.whiteBlock p,.ourHistoryBottom h4,.ourHistoryBottom h2,
+.ourCenter p,.ourHistoryTop > h2,.linesAndText h4,.welcome h1,.welcome h2,.headerRightSidePhoneAndNumber p{
+ font-weight: 400;
+}
+.viewMenu h4,.orderRequest h4,.headerCenter h4,.headerRightSidePhoneAndNumber h4{
+    font-weight: 700;
+    font-size: 14px;
+}
+.headerCenter,.headerRightSidePhoneAndNumber,.orderRequest,.viewMenu h4,.linesAndText{
+    color: #e9e9e9;
+}

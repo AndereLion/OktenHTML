@@ -1,0 +1,57 @@
+@media screen and (max-width: 375px) {
+    .wrapper {
+        width: 375px;
+    }
+
+    .card-title {
+        font-weight: 700;
+        font-size: 34px;
+    }
+
+    .c-col7-sm4 {
+        width: 100%;
+    }
+
+    .с-сcol7-sm4 {
+        width: 100%;
+    }
+
+
+    .logoImg {
+        margin: 0;
+    }
+
+    .card-title-H3 {
+        width: 62%;
+        text-align: center;
+        margin-left: 50px;
+        margin-bottom: 40px;
+    }
+
+    .text-bei-der-media {
+        font-weight: 600;
+    }
+
+    .modernste {
+        width: 100%;
+    }
+
+    #row3 h3 {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .card-titleColdLine {
+        text-align: center;
+    }
+
+    .IconHotToCold, .text-bei-der, .lineimg-second, .col-sm-6, .imgTop {
+        display: none;
+    }
+
+    .card-bodyColdLine-Media, .iconHotToCold-media, .img-before-moernste,
+    .text-bei-der-media, .imgTopAfter, .secondImg {
+        display: block;
+    }
+}
+
