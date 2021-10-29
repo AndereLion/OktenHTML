@@ -34,6 +34,11 @@
         width: 137px;
         height: 47px;
         margin-top: 40px;
+
+
+    }
+    .whiteBlock{
+        margin-top: 12px;
     }
 
     .menuButton h4 {
@@ -91,7 +96,7 @@
         line-height: 22px;
     }
 
-    .ourHistoryBottom,.welcomeMini {
+    .ourHistoryBottom {
         display: flex;
         justify-content: space-between;
     }
@@ -134,8 +139,10 @@
         display: flex;
         align-items: center;
     }
-    .ourHistoryTop > h2,.welcomeMini_Center h4,.welcomeMini h1,.welcomeMini h2 {
 
+    .welcomeMini{
+        display: flex;
+        height: 200px;
     }
 
 }

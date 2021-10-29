@@ -9,70 +9,65 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="media.css">
-    <title>Homework 6.1</title>
+    <title>Homework 6.2</title>
 </head>
 <body>
 <div class="wrapper">
-    <img src="img/design%20box.png" class="designBox" alt="design box">
-    <img src="img/430%201.png" class="cakeImg" alt="cake">
-    <img src="img/255%201.png" class="cafeImg" alt="cafe">
-    <img src="img/233%5D%201.png" class="spicesImg" alt="spices">
-    <div class="absoluteFor3Blocks">
-        <div class="whiteBlock">
-            <img src="img/dish.png" alt="dish">
-            <div class="absoluteFor3Blocks_boxForH3">
-                <h3>Магическая </h3>
-                <h3 class="goldH3">Атмосфера</h3>
+    <img src="img/design%20box.png" class="designBox position-absolute" alt="design box">
+    <img src="img/430%201.png" class="cakeImg position-absolute" alt="cake">
+    <img src="img/255%201.png" class="cafeImg position-absolute" alt="cafe">
+    <img src="img/233%5D%201.png" class="spicesImg position-absolute" alt="spices">
+    <div class="absoluteFor3Blocks position-absolute d-flex justify-content-between">
+        <div class="whiteBlock d-flex flex-column align-items-center">
+            <img src="img/dish.png" alt="dish" class="mt-4">
+            <div class="absoluteFor3Blocks_boxForH3 d-flex">
+                <h3 class="fw-normal fs-4">Магическая </h3>
+                <h3 class="goldH3 fs-4">Атмосфера</h3>
             </div>
-            <p>В нашем заведении царит магическая атмосфера
+            <p class="fw-normal text-center">В нашем заведении царит магическая атмосфера
                 наполненная вкусными ароматами</p>
         </div>
-        <div class="whiteBlock"><img src="img/dish.png" alt="dish">
-            <div class="absoluteFor3Blocks_boxForH3">
-                <h3>Лучшее качество</h3>
-                <h3 class="goldH3">Еды</h3>
+        <div class="whiteBlock d-flex flex-column align-items-center"><img src="img/dish.png" class="mt-4" alt="dish ">
+            <div class="absoluteFor3Blocks_boxForH3 d-flex">
+                <h3 class="fw-normal fs-4">Лучшее качество</h3>
+                <h3 class="goldH3 fs-4">Еды</h3>
             </div>
-            <p>Качество нашей
+            <p class="fw-normal text-center">Качество нашей
                 Еды - отменное!
             </p></div>
-        <div class="whiteBlock"><img src="img/dish.png" alt="dish">
-            <div class="absoluteFor3Blocks_boxForH3">
-                <h3>Недорогая</h3>
-                <h3 class="goldH3">Еда</h3>
+        <div class="whiteBlock d-flex flex-column align-items-center"><img src="img/dish.png" class="mt-4" alt="dish">
+            <div class="absoluteFor3Blocks_boxForH3 d-flex">
+                <h3 class="fw-normal fs-4">Недорогая</h3>
+                <h3 class="goldH3 fs-4">Еда</h3>
             </div>
-            <p>Стоимость нашей Еды
+            <p class="fw-normal text-center">Стоимость нашей Еды
                 зависит только от ее
                 количества. Качество
                 всегда на высоте!</p></div>
     </div>
-   <div class="target container-fluid row">
-       <div class="box-1 col-11"></div>
-       <div class="box-2 col-1"></div>
-       <div class="box-3 col-1"></div>
-   </div>
-    <header class="header">
+    <header class="header  justify-content-between align-items-end">
         <div class="headerLeftSide">
-            <img src="img/LOGO.png" alt="logo">
+            <img src="img/LOGO.png" class="imgLogo" alt="logo">
         </div>
-        <div class="headerCenter">
-            <h4>ГЛАВНАЯ</h4>
-            <h4>МЕНЮ</h4>
-            <h4>О НАС</h4>
-            <h4>БРОНЬ</h4>
-            <img src="img/cart.png" class="cartImg" alt="cart">
-            <img src="img/Line%201.png" class="lineImg" alt="line">
+        <div class="headerCenter d-flex justify-content-between align-items-end">
+            <h4 class="mb-4">ГЛАВНАЯ</h4>
+            <h4 class="mb-4">МЕНЮ</h4>
+            <h4 class="mb-4">О НАС</h4>
+            <h4 class="mb-4">БРОНЬ</h4>
+            <img src="img/cart.png" class="cartImg mb-4" alt="cart">
+            <img src="img/Line%201.png" class="lineImg mb-1" alt="line">
         </div>
-        <div class="headerRightSidePhoneAndNumber">
-            <div class="headerRightSidePhoneAndNumber_Top">
-                <img src="img/phone-call%201.png" class="phoneImg" alt="phone img">
+        <div class="headerRightSidePhoneAndNumber flex-column">
+            <div class="headerRightSidePhoneAndNumber_Top mb-1">
+                <img src="img/phone-call%201.png" class="phoneImg me-2" alt="phone img">
                 <h4>+999-888-76-54</h4>
             </div>
             <div class="headerRightSidePhoneAndNumber_Bottom">
-                <p>Свяжитесь с нами для
+                <p class="fw-normal ">Свяжитесь с нами для
                     бронирования</p>
             </div>
         </div>
-        <div class="orderRequest">
+        <div class="orderRequest d-flex justify-content-center align-items-center">
             <h4>ЗАКАЗ СТОЛИКА</h4>
         </div>
     </header>
@@ -80,15 +75,15 @@
         <img src="img/my.png" class="miniLogo" alt="">
         <img src="img/Group.png" class="threeLineImg" alt="">
     </div>
-    <div class="welcome">
-        <h2>Добро пожаловать в</h2>
-        <h1>Наш ресторан</h1>
-        <div class="linesAndText">
-            <img src="img/lineG.png" alt="">
-            <h4>ДОМ ЛУЧШЕЙ ЕДЫ</h4>
-            <img src="img/lineG.png" alt="">
+    <div class="welcome  justify-content-between">
+        <h2 class="fw-normal">Добро пожаловать в</h2>
+        <h1 class="fw-normal">Наш ресторан</h1>
+        <div class="linesAndText d-flex justify-content-between">
+            <img src="img/lineG.png" class="mt-3" alt="">
+            <h4 class="fw-normal mt-3">ДОМ ЛУЧШЕЙ ЕДЫ</h4>
+            <img src="img/lineG.png" class="mt-3" alt="">
         </div>
-        <div class="viewMenu">
+        <div class="viewMenu d-flex justify-content-center align-items-center ">
             <h4>VIEW MENU</h4>
         </div>
     </div>
@@ -105,27 +100,27 @@
 </div>
 <div class="wrapper2">
     <div class="ourHistory">
-        <div class="ourHistoryTop">
-            <h2>Наша </h2>
-            <h2 class="ourHistoryTopOrangeH2">История</h2></div>
-        <div class="ourCenter"><p>Как и у любого другого самобытного места, у нас есть своя, особая история. Идея
+        <div class="ourHistoryTop justify-content-center">
+            <h2 class="fw-normal">Наша </h2>
+            <h2 class="ourHistoryTopOrangeH2 fw-normal">История</h2></div>
+        <div class="ourCenter"><p class="fw-normal">Как и у любого другого самобытного места, у нас есть своя, особая история. Идея
             ресторана пришла
             основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров
             от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе
             нехитрый быт, добывать и готовить себе еду.</p>
         </div>
-        <div class="ourHistoryBottom">
+        <div class="ourHistoryBottom " >
             <div>
-                <h2>93</h2>
-                <h4>Напитки</h4>
+                <h2 class="fw-normal">93</h2>
+                <h4 class="fw-normal">Напитки</h4>
             </div>
             <div>
-                <h2>206</h2>
-                <h4>Еда</h4>
+                <h2 class="fw-normal">206</h2>
+                <h4 class="fw-normal">Еда</h4>
             </div>
             <div>
-                <h2>71</h2>
-                <h4>Закуски</h4>
+                <h2 class="fw-normal">71</h2>
+                <h4 class="fw-normal">Закуски</h4>
             </div>
 
         </div>

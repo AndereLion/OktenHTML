@@ -3,7 +3,7 @@ body {
 }
 
 h1, h2, h3, h4, .headerRightSidePhoneAndNumber p,
-.headerRightSidePhoneAndNumber h4, .ourHistoryBottom h4,body {
+.headerRightSidePhoneAndNumber h4, .ourHistoryBottom h4, body {
     margin: 0;
 }
 
@@ -18,7 +18,6 @@ h1, h2, h3, h4, .headerRightSidePhoneAndNumber p,
 .header {
     width: 100%;
     height: 114px;
-    align-items: end;
 }
 
 .headerLeftSide {
@@ -26,36 +25,27 @@ h1, h2, h3, h4, .headerRightSidePhoneAndNumber p,
 }
 
 .headerCenter {
-    align-items: end;
     width: 23%;
     height: 114px;
     margin-left: 210px;
 }
 
-.headerCenter h4 {
-    margin-bottom: 26px;
-}
-
 .cartImg {
     width: 13px;
     height: 13px;
-    margin-bottom: 26px;
 }
 
 .lineImg {
-    margin-bottom: 7px;
     margin-right: -25px;
 }
 
 .phoneImg {
     width: 23px;
     height: 23px;
-    margin-right: 9px;
 }
 
 .headerRightSidePhoneAndNumber {
     display: flex;
-    flex-direction: column;
     width: 154px;
     margin-bottom: -5px;
     margin-right: -15px;
@@ -65,13 +55,8 @@ h1, h2, h3, h4, .headerRightSidePhoneAndNumber p,
     font-size: 14px;
 }
 
-.headerRightSidePhoneAndNumber h4,.linesAndText h4 {
+.headerRightSidePhoneAndNumber h4, .linesAndText h4 {
     font-size: 18px;
-}
-
-.headerRightSidePhoneAndNumber_Top {
-    display: flex;
-    margin-bottom: 3px;
 }
 
 .orderRequest {
@@ -81,12 +66,10 @@ h1, h2, h3, h4, .headerRightSidePhoneAndNumber p,
     height: 47px;
 }
 
-.orderRequest h4 {
-}
-
 .welcome {
     flex-direction: column;
     align-items: center;
+    display: flex;
     height: 240px;
     width: 650px;
     margin-top: 200px;
@@ -109,7 +92,6 @@ h1, h2, h3, h4, .headerRightSidePhoneAndNumber p,
 }
 
 
-
 .linesAndText {
     width: 300px;
     height: 25px;
@@ -122,10 +104,10 @@ h1, h2, h3, h4, .headerRightSidePhoneAndNumber p,
 }
 
 
-
 .headerMini {
     display: none;
 }
+
 .wrapper2 {
     margin: 0 auto;
     width: 1440px;
@@ -140,17 +122,20 @@ h1, h2, h3, h4, .headerRightSidePhoneAndNumber p,
     width: 400px;
     text-align: center;
 }
+
 .ourHistoryTop > h2 {
     font-size: 54px;
     line-height: 62px;
     margin-left: 10px;
 }
-.ourHistoryTopOrangeH2,.welcome h2,.welcome h1 {
+
+.ourHistoryTopOrangeH2, .welcome h2, .welcome h1 {
     color: #D67E35;
 }
-.ourHistoryTop {
+
+.ourHistoryTop, .headerRightSidePhoneAndNumber_Top, .ourHistoryBottom, .header {
     display: flex;
-    justify-content: center;
+
 }
 
 .ourCenter p {
@@ -158,7 +143,6 @@ h1, h2, h3, h4, .headerRightSidePhoneAndNumber p,
 }
 
 .ourHistoryBottom {
-    display: flex;
     justify-content: space-evenly;
     margin-top: 80px;
 
@@ -184,29 +168,18 @@ h1, h2, h3, h4, .headerRightSidePhoneAndNumber p,
     left: 13%;
 
 }
+
 .whiteBlock {
     background: #FFFFFF;
     height: 337px;
     width: 337px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-.whiteBlock img {
-    margin-top: 35px;
-}
+
 .whiteBlock p {
-    width: 80%;
-    text-align: center;
+
     font-size: 26px;
     margin: 20px 0 0;
     color: #656363;
-}
-.absoluteFor3Blocks_boxForH3 {
-    display: flex;
-}
-.absoluteFor3Blocks_boxForH3 h3 {
-    font-size: 26px;
 }
 
 .goldH3 {
@@ -234,28 +207,15 @@ h1, h2, h3, h4, .headerRightSidePhoneAndNumber p,
     right: 410px;
 }
 
-.spicesImg, .cafeImg, .cakeImg, .designBox, .absoluteFor3Blocks {
-    position: absolute;
-}
-
-.header, .headerCenter, .welcome, .linesAndText, .absoluteFor3Blocks {
-    display: flex;
-    justify-content: space-between;
-}
-
-.orderRequest, .viewMenu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.absoluteFor3Blocks_boxForH3 h3,.whiteBlock p,.ourHistoryBottom h4,.ourHistoryBottom h2,
-.ourCenter p,.ourHistoryTop > h2,.linesAndText h4,.welcome h1,.welcome h2,.headerRightSidePhoneAndNumber p{
- font-weight: 400;
-}
-.viewMenu h4,.orderRequest h4,.headerCenter h4,.headerRightSidePhoneAndNumber h4{
+.viewMenu h4, .orderRequest h4, .headerCenter h4, .headerRightSidePhoneAndNumber h4 {
     font-weight: 700;
     font-size: 14px;
 }
-.headerCenter,.headerRightSidePhoneAndNumber,.orderRequest,.viewMenu h4,.linesAndText{
+
+.headerCenter, .headerRightSidePhoneAndNumber, .orderRequest, .viewMenu h4, .linesAndText {
     color: #e9e9e9;
+}
+
+.welcomeMini {
+    display: none;
 }
