@@ -1,0 +1,795 @@
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1920px;
+    height: 2962px;
+    position: relative;
+}
+
+.absoluteInSlider {
+    position: absolute;
+    width: 330px;
+    height: 207px;
+    left: 450px;
+    top: 357px;
+    z-index: 1;
+}
+
+.absoluteInSlider_ForPrices {
+    margin-top: 25px;
+}
+
+.absoluteInSlider_ForPrices p:last-child {
+    margin-left: 15px;
+}
+
+.absoluteInSlider h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A1A2C;
+}
+
+.absoluteInSlider p:nth-child(2) {
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+    margin-top: 10px;
+}
+
+.absoluteInSlider_ForPrices p:first-child {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+}
+
+.absoluteInSlider_ForPrices p:last-child {
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+
+.header {
+    width: 100%;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header h6 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dropdown-toggle {
+    background: none;
+}
+
+#dropdownMenuButton2, #dropdownMenuButton, .dropdown-toggle, .button-catalog,
+.underHeaderInnerBottomLeft_InputAndFinder_InputBox_Input, .footerInnerRight_Bottom_ButtonSubscribe {
+    border: none;
+}
+
+.dropdown-menu, #dropdownMenuButton2, #dropdownMenuButton, .header {
+    background: #0F2438;
+
+}
+
+.underHeader {
+    width: 100%;
+    height: 196px;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Center_ForText {
+    width: 67%;
+}
+
+.mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Center_ForText p:nth-child(1) {
+    width: 186px;
+    height: 46px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #0A1A2C;
+}
+
+.mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Center_ForText p:nth-child(2) {
+    font-size: 12px;
+    line-height: 18px;
+    color: #525252;
+}
+
+.underHeaderInnerTop, .underHeaderInnerBottom {
+    width: 100%;
+    height: 50%;
+}
+
+.underHeaderInnerBottomLeft {
+    width: 62%;
+}
+
+.button-catalog {
+    width: 164px;
+    height: 53px;
+    background: #005BB9;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.mainPart_ForBigSliderAnd2Div_2divBox_TopInner h6 {
+    width: 42px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+    margin-bottom: 18px;
+}
+
+.underHeaderInnerBottomLeft_InputAndFinder_Finder {
+    width: 101px;
+    height: 53px;
+    background: #005BB9;
+    border-radius: 0 6px 6px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.underHeaderInnerBottomLeft_InputAndFinder {
+    width: 649px;
+    height: 53px;
+}
+
+.underHeaderInnerBottomLeft_InputAndFinder_InputBox,
+.underHeaderInnerBottomLeft_InputAndFinder_InputBox_Input {
+    width: 549px;
+    height: 53px;
+}
+
+.underHeaderInnerBottomLeft_InputAndFinder_InputBox_Input {
+    background: #F4F5FA;
+    border-radius: 6px 0 0 6px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C2C5DA;
+}
+
+.underHeaderInnerBottomRight {
+    width: 34.5%;
+}
+
+.underHeaderInnerBottomRight a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #0F2438;
+}
+
+.underHeaderInnerBottomRight2 {
+    width: 35%;
+    height: 40%;
+    border-right: 1px #E1E5F8 solid;
+    border-left: 1px #E1E5F8 solid;
+}
+
+.underHeaderInnerBottomRight3, .mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Bottom,
+.mainPart_ForBigSliderAnd2Div_2divBox, .underHeaderInnerBottomRight, .socialMeans {
+    justify-content: end;
+}
+
+.bigSlider {
+    width: 1008px;
+    height: 400px;
+}
+
+.orangePrice_p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+}
+
+.silverPrice_p {
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+    margin-right: 28px;
+}
+
+.mainPart_ForBigSliderAnd2Div {
+    height: 460px;
+    width: 100%;
+}
+
+.mainPart_ForBigSliderAnd2Div_2divBox {
+    width: 336px;
+    height: 390px;
+    gap: 10px;
+}
+
+.mainPart_ForBigSliderAnd2Div_2divBox_Top {
+    width: 336px;
+    height: 190px;
+    background: #F4F5FA;
+    border-radius: 10px;
+}
+
+.mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Center img {
+    width: 80px;
+    height: 74px;
+}
+
+
+.mainPart_ForBigSliderAnd2Div_2divBox_TopInner {
+    width: 90%;
+    height: 77%;
+}
+
+.mainPartForSmallSlider {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.mainPartBigPart {
+    width: 100%;
+    height: 1091px;
+}
+
+.mainPartBigPart_Footer {
+    height: 50px;
+    margin-top: 20px;
+}
+
+.mainPartBigPart_Footer_ButtonMore {
+    width: 187px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #005BB9;
+}
+
+.mainPartBigPart_Header_ButtonSelection {
+    width: 241px;
+    height: 55px;
+    background: #005BB9;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.mainPartBigPart_Header {
+    margin-top: 70px;
+}
+
+.mainPartBigPart_Center {
+    width: 100%;
+    height: 920px;
+    flex-wrap: wrap;
+}
+
+.mainPartBigPart_Center_Top {
+    border-bottom: #E1E5F8 solid 1px;
+}
+
+.mainPartBigPart_Center_Bottom, .mainPartBigPart_Center_Top {
+    margin-top: 35px;
+    height: 50%;
+    column-gap: 25px;
+}
+
+.mainPartBigPart_Center_BoxForItem {
+    width: 23%;
+}
+
+.mainPartBigPart_Center_BoxForItem_RatingDiv, .absoluteInSlider img {
+    margin-top: 15px;
+}
+
+.mainPartBigPart_Center_BoxForItem_RatingDiv img {
+    width: 39px;
+    height: 16px;
+}
+
+.mainPartBigPart_Center_BoxForItem_RatingDiv p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0B0B0;
+    margin-left: 10px;
+}
+
+.mainPartBigPart_Center_BoxForItem_P_ItemName {
+    height: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+    margin-top: 5px;
+}
+
+.mainPartBigPart_Center_BoxForItem_QueryPrice, .mainPartBigPart_Center_BoxForItem_QueryPrice2 {
+    margin-top: 46px;
+}
+
+.mainPartBigPart_Center_BoxForItem_QueryPrice p {
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.mainPartBigPart_Center_BoxForItemFooter {
+    margin-top: 20px;
+    width: 100%;
+    height: 49px;
+}
+
+.mainPartBigPart_Center_BoxForItemFooter img:nth-child(2), .mainPartBigPart_Header_ButtonPromotion,
+.mainPartBigPart_Header_ButtonBuyingNow, .mainPartBigPart_Center_BoxForItemFooter img:nth-child(3) {
+    margin-left: 20px;
+}
+
+.mainPartBigPart_Center_BoxForItem_QueryPrice a {
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: underline;
+    color: #005BB9;
+    margin-left: 4px;
+}
+
+.mainPartBigPart_Header_ButtonPromotion, .mainPartBigPart_Header_ButtonBuyingNow {
+    width: 123px;
+    height: 55px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005BB9;
+    background: #FFFFFF;
+}
+
+.mainPartBigPart_Header_ButtonBuyingNow {
+    width: 229px;
+}
+
+.linesDiv {
+    height: 9px;
+    background: #F5F5F5;
+}
+
+.linesDiv_Circle {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+
+.linesDiv_Circle_Box {
+    width: 121px;
+    justify-content: center;
+
+}
+
+.overFooterBottom {
+    height: 300px;
+}
+
+.overFooterBottom_Box {
+    width: 270px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.overFooter_ForBlackDays_Box {
+    width: 121px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.overFooter_ForVerticalLines_Line {
+    width: 1px;
+    height: 20px;
+}
+
+.overFooter_ForVerticalLines_Line, .linesDiv_Circle, .overFooter_ForBlackDays p, .footer, .FooterInnerRight_Bottom_ForInput_Input {
+    background: #0C1A2A;
+}
+
+.overFooter_ForBlackDays, .overFooter_ForBlackDays_Box {
+    height: 42px;
+}
+
+.overFooterForDaysAndLines {
+    height: 51px;
+    width: 100%;
+}
+
+.overFooter_ForBlackDays p {
+    border-radius: 4px;
+    width: 121px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.overFooter {
+    height: 484px;
+    flex-wrap: wrap;
+}
+
+.overFooter_newsP {
+    height: 28px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.overFooter_ForBlackDaysInner, .footerInner, .overFooter_newsP, .overFooterBottom,
+.linesDivInner, .mainPartInner, .underHeaderInner, .headerInner {
+    width: 70.5%;
+}
+
+.footer {
+    width: 100%;
+    height: 408px;
+}
+
+.footerInnerLeft {
+    width: 55%;
+}
+
+.footerInnerLeft_Top, .footerInner {
+    height: 85%;
+}
+
+.footerInnerLeft_Bottom, .underHeaderInnerTop5 {
+    align-items: end;
+}
+
+.footerInnerRight_Top {
+    height: 33%;
+}
+
+.footerInnerRight_Top_Left, .footerInnerLeft_TopColumn3 {
+    width: 40%;
+}
+
+.footerInnerRight_Top p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 12px;
+}
+
+.footerInnerRight_Top_Right {
+    width: 60%;
+}
+
+.footerInnerRight_Middle, .footerInnerLeft_Bottom {
+    height: 15%;
+}
+
+
+.footerInnerRight_Middle a {
+    line-height: 21px;
+}
+
+.footerInnerRight_Bottom {
+    width: 100%;
+    height: 40%;
+}
+
+.footerInnerRight_Bottom_ForInput {
+    height: 40px;
+    margin-top: 19px;
+}
+
+.footerInnerRight_Bottom_ButtonSubscribe {
+    background: #005BB9;
+    border-radius: 0 6px 6px 0;
+    line-height: 19px;
+    text-align: center;
+}
+
+.FooterInnerRight_Bottom_ForInput_Input {
+    width: 100%;
+    border: 1px solid #203246;
+    box-sizing: border-box;
+    border-radius: 6px;
+    line-height: 19px;
+    color: #ADBDD1;
+
+}
+
+.footerInnerRight_Bottom_ForInput_Label {
+    width: 70%;
+}
+
+.footerInnerRight_Middle p, .footerInnerRight_Bottom p {
+    line-height: 21px;
+    color: #858CAB;
+}
+
+.footerInnerRight {
+    width: 32%;
+    height: 82%;
+}
+
+.socialMeans {
+    margin-top: 28px;
+}
+
+.socialMeans a:nth-child(1) img,
+.socialMeans a:nth-child(2) img,
+.socialMeans a:nth-child(3) img {
+    margin-right: 55px;
+}
+
+.footerInnerLeft_TopColumn3 p:nth-child(6) {
+    margin-top: 45px;
+}
+
+.footerInner h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+
+}
+
+.footerInnerLeft p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 14px;
+}
+
+.mainPart, .mainPartInner {
+    height: 1840px;
+}
+
+.carousel-control-next-icon {
+    background: url("img/nextLogo.png");
+    width: 66px;
+    height: 5rem;
+}
+
+.carousel-control-prev-icon {
+    background: url("img/previousLogo.png");
+    width: 66px;
+    height: 5rem;
+}
+
+.headerLeft, .headerLeft_LeftSide {
+    width: 34%;
+}
+
+.headerLeft_LeftSide img {
+    width: 20px;
+    height: 20px;
+}
+
+.headerLeft_LeftSide a {
+    margin-top: 3px;
+
+}
+
+.header a, .headerRight a, .footerInnerLeft p, .footerInnerRight_Bottom_ButtonSubscribe,
+.footerInnerRight_Middle a, .footerInnerRight_Top p, .overFooter_ForBlackDays p,
+.mainPartBigPart_Header_ButtonSelection, .underHeaderInnerBottomLeft_InputAndFinder_Finder,
+.button-catalog, .header, .header h6 {
+    color: #FFFFFF;
+}
+
+.header a, .headerRight a, .footerInnerRight_Middle a, .underHeaderInnerBottomRight a {
+    text-decoration: none;
+}
+
+.headerLeft_Center, .headerLeft_RightSide {
+    width: 25%;
+}
+
+.headerRight {
+    width: 50%;
+}
+
+*:hover,
+*:focus {
+    outline: none;
+    box-shadow: none !important;
+    -webkit-appearance: none;
+}
+
+
+.logoAY_Img {
+    width: 66px;
+    height: 71px;
+}
+
+.underHeaderInnerTop1, .underHeaderInnerTop2,
+.underHeaderInnerTop3, .underHeaderInnerTop4 {
+    width: 20%;
+}
+
+.underHeaderInnerTop1_RightSide p {
+    font-size: 12px;
+    font-weight: 500;
+    width: 80%;
+}
+
+.underHeaderInnerTop2 p {
+    text-align: end;
+}
+
+.underHeaderInnerTop3 p, .underHeaderInnerTop2 p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.underHeaderInnerTop4_Inner {
+    width: 204px;
+    height: 30px;
+    background: #E1EFD0;
+    border-radius: 2px;
+}
+
+.underHeaderInnerTop4_Inner img {
+    width: 12px;
+    height: 12px;
+}
+
+.underHeaderInnerTop4_Inner p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.underHeaderInnerTop5 {
+    width: 13%;
+    justify-content: center;
+}
+
+.underHeaderInner, .mainPart_ForBigSliderAnd2Div_2divBox, .underHeaderInnerTop5 {
+    flex-direction: column;
+}
+
+.underHeaderInnerTop5_Top_p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.underHeaderInnerTop5_Bottom_p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footerInnerLeft_Bottom p {
+    line-height: 20px;
+    color: #737E9B;
+}
+
+.footer320, .overFooter320, .mainPartForSmallSlider320, .bigSlider320,
+.mainPart_ForBigSliderAnd2Div_2divBox_TopInner320, .header320, .underHeader320 {
+    display: none;
+}
+
+.underHeaderInnerTop4_Inner, .underHeaderInnerTop4, .underHeaderInnerTop3,
+.underHeaderInnerTop2, .headerLeft_LeftSide, .underHeaderInnerBottomRight2, .footer,
+.mainPart_ForBigSliderAnd2Div_2divBox_Top, .underHeaderInnerBottomRight1, .header,
+.underHeaderInnerBottomLeft_InputAndFinder_Finder, .button-catalog, .underHeader,
+.mainPart, .overFooter, .overFooter_ForBlackDays, .linesDiv, .mainPartBigPart_Footer {
+    justify-content: center;
+}
+
+.underHeaderInnerTop1, .headerRight, .headerLeft, .mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Center, .underHeaderInnerBottom,
+.mainPart_ForBigSliderAnd2Div, .underHeaderInnerBottomLeft, .underHeaderInnerTop, .underHeaderInner,
+.footerInnerRight_Middle, .footerInnerRight_Top, .footerInnerLeft_Top,
+.footerInner, .overFooterBottom, .headerInner, .overFooter_ForBlackDaysInner, .linesDivInner {
+    justify-content: space-between;
+
+}
+
+.headerInner, .overFooter_ForBlackDaysInner, .linesDivInner, .underHeaderInnerBottomRight1, .underHeaderInnerBottomRight3, .footerInnerRight_Bottom_ButtonSubscribe,
+.footerInnerLeft_TopColumn1, .footerInnerLeft_TopColumn2, .underHeaderInner, .underHeaderInnerBottomLeft,
+.underHeaderInnerTop1, .underHeaderInnerTop2, .underHeaderInnerBottomRight, .underHeaderInnerTop5, .overFooterBottom_Box,
+.underHeaderInnerTop3, .underHeaderInnerTop4, .linesDiv_Circle_Box, .headerLeft_Center, .headerLeft_RightSide,
+.headerRight, .footerInnerRight_Top_Left, .footerInnerRight_Top_Right, .footerInnerLeft_TopColumn3, .footerInnerLeft,
+.headerLeft, .headerLeft_LeftSide, .footerInnerRight_Bottom_ForInput_Label, .FooterInnerRight_Bottom_ForInput_Input {
+    height: 100%;
+}
+
+
+.footerInnerLeft_Bottom p, .FooterInnerRight_Bottom_ForInput_Input, .silverPrice_p,
+.footerInnerRight_Bottom_ButtonSubscribe {
+    font-size: 16px;
+}
+
+.footerInnerRight_Middle p, .footerInnerRight_Bottom p, .footerInnerRight_Middle a {
+    font-size: 18px;
+}
+
+.footerInnerRight_Bottom_ForInput, .footerInnerLeft_Bottom, .mainPartBigPart_Center_Bottom, .mainPartBigPart_Center_Top,
+.mainPartBigPart_Center_BoxForItem_QueryPrice, .mainPartBigPart_Center_BoxForItem_QueryPrice2,
+.mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Bottom, .footerInnerRight_Middle, .footerInnerRight_Top,
+.footerInnerLeft_Top, .mainPart, .overFooter, .overFooter_ForBlackDays, .linesDiv, .mainPartBigPart_Footer {
+    width: 100%;
+}
+
+.underHeaderInnerBottomRight1, .underHeaderInnerBottomRight3, .footerInnerRight_Bottom_ButtonSubscribe,
+.footerInnerLeft_TopColumn1, .footerInnerLeft_TopColumn2 {
+    width: 30%;
+}
+
+.underHeaderInnerBottomLeft_InputAndFinder, .underHeaderInnerBottomRight, .underHeaderInnerBottomRight3,
+.bigSlider, .mainPart_ForBigSliderAnd2Div_2divBox, .underHeaderInnerTop4_Inner, .underHeaderInnerTop4,
+.underHeaderInnerTop2, .headerLeft_LeftSide, .underHeaderInnerBottomRight2, .footer, .underHeaderInnerTop3,
+.mainPart_ForBigSliderAnd2Div_2divBox_Top, .underHeaderInnerBottomRight1, .header, .underHeaderInner,
+.underHeaderInnerBottomLeft_InputAndFinder_Finder, .button-catalog, .underHeader, .underHeaderInnerTop1,
+.headerRight, .headerLeft, .mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Center, .underHeaderInnerBottom,
+.mainPart_ForBigSliderAnd2Div, .underHeaderInnerBottomLeft, .underHeaderInnerTop {
+    align-items: center;
+}
+
+.footerInner, .overFooterBottom, .headerInner, .overFooter_ForBlackDaysInner, .linesDivInner,
+.underHeaderInnerBottomLeft_InputAndFinder, .underHeaderInnerBottomRight, .underHeaderInnerBottomRight3,
+.bigSlider, .mainPart_ForBigSliderAnd2Div_2divBox, .underHeaderInnerTop4_Inner, .underHeaderInnerTop4,
+.underHeaderInnerTop2, .headerLeft_LeftSide, .underHeaderInnerBottomRight2, .footer, .underHeaderInnerTop3,
+.mainPart_ForBigSliderAnd2Div_2divBox_Top, .underHeaderInnerBottomRight1, .header, .underHeaderInner, .linesDiv_Circle_Box,
+.underHeaderInnerBottomLeft_InputAndFinder_Finder, .button-catalog, .underHeader, .underHeaderInnerTop1,
+.headerRight, .headerLeft, .mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Center, .underHeaderInnerBottom,
+.mainPart_ForBigSliderAnd2Div, .underHeaderInnerBottomLeft, .underHeaderInnerTop, .underHeaderInnerTop5,
+.absoluteInSlider_ForPrices, .mainPartBigPart_Center_BoxForItem_RatingDiv, .socialMeans, .overFooter_ForBlackDays_Box,
+.footerInnerRight_Bottom_ForInput, .footerInnerLeft_Bottom, .mainPartBigPart_Center_Bottom, .mainPartBigPart_Center_Top,
+.mainPartBigPart_Center_BoxForItem_QueryPrice, .mainPartBigPart_Center_BoxForItem_QueryPrice2,
+.mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Bottom, .footerInnerRight_Middle, .footerInnerRight_Top,
+.footerInnerLeft_Top, .mainPart, .overFooter, .overFooter_ForBlackDays, .linesDiv, .mainPartBigPart_Footer {
+    display: flex;
+}
+
+.mainPartBigPart_Center_BoxForItem_QueryPrice a, .absoluteInSlider p:nth-child(2), .footerInnerRight_Middle a,
+.absoluteInSlider_ForPrices p:last-child, .underHeaderInnerBottomLeft_InputAndFinder_InputBox_Input,
+.mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Center_ForText p:nth-child(2), .silverPrice_p,
+.mainPartBigPart_Center_BoxForItem_RatingDiv p, .mainPartBigPart_Center_BoxForItem_QueryPrice p,
+.mainPartBigPart_Center_BoxForItem_QueryPrice a, .footerInnerLeft_Bottom p, .FooterInnerRight_Bottom_ForInput_Input,
+.footerInnerRight_Bottom_ButtonSubscribe, .footerInnerRight_Middle p, .footerInnerRight_Bottom p {
+    font-style: normal;
+    font-weight: normal;
+}
