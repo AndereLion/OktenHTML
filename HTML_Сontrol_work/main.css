@@ -1,9 +1,12 @@
 p, h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+    margin: 0 auto;
+}
+body{
+    display: flex;
+    justify-content: center;
 }
 
 .wrapper {
-    margin: 0 auto;
     width: 1920px;
     height: 2962px;
     position: relative;
@@ -89,6 +92,7 @@ p, h1, h2, h3, h4, h5, h6 {
     background: #FFFFFF;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
+
 
 .mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Center_ForText {
     width: 67%;
@@ -654,6 +658,7 @@ p, h1, h2, h3, h4, h5, h6 {
     font-size: 12px;
     font-weight: 500;
     width: 80%;
+    margin: 0;
 }
 
 .underHeaderInnerTop2 p {
@@ -670,11 +675,13 @@ p, h1, h2, h3, h4, h5, h6 {
     height: 30px;
     background: #E1EFD0;
     border-radius: 2px;
+
 }
 
 .underHeaderInnerTop4_Inner img {
     width: 12px;
     height: 12px;
+    margin-left: 18px;
 }
 
 .underHeaderInnerTop4_Inner p {
@@ -709,6 +716,21 @@ p, h1, h2, h3, h4, h5, h6 {
 .footer320, .overFooter320, .mainPartForSmallSlider320, .bigSlider320,
 .mainPart_ForBigSliderAnd2Div_2divBox_TopInner320, .header320, .underHeader320 {
     display: none;
+}
+.footerInner, .overFooterBottom, .headerInner, .overFooter_ForBlackDaysInner, .linesDivInner,
+.underHeaderInnerBottomLeft_InputAndFinder, .underHeaderInnerBottomRight, .underHeaderInnerBottomRight3,
+.bigSlider, .mainPart_ForBigSliderAnd2Div_2divBox, .underHeaderInnerTop4_Inner, .underHeaderInnerTop4,
+.underHeaderInnerTop2, .headerLeft_LeftSide, .underHeaderInnerBottomRight2, .footer, .underHeaderInnerTop3,
+.mainPart_ForBigSliderAnd2Div_2divBox_Top, .underHeaderInnerBottomRight1, .header, .underHeaderInner, .linesDiv_Circle_Box,
+.underHeaderInnerBottomLeft_InputAndFinder_Finder, .button-catalog, .underHeader, .underHeaderInnerTop1,
+.headerRight, .headerLeft, .mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Center, .underHeaderInnerBottom,
+.mainPart_ForBigSliderAnd2Div, .underHeaderInnerBottomLeft, .underHeaderInnerTop, .underHeaderInnerTop5,
+.absoluteInSlider_ForPrices, .mainPartBigPart_Center_BoxForItem_RatingDiv, .socialMeans, .overFooter_ForBlackDays_Box,
+.footerInnerRight_Bottom_ForInput, .footerInnerLeft_Bottom, .mainPartBigPart_Center_Bottom, .mainPartBigPart_Center_Top,
+.mainPartBigPart_Center_BoxForItem_QueryPrice, .mainPartBigPart_Center_BoxForItem_QueryPrice2,
+.mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Bottom, .footerInnerRight_Middle, .footerInnerRight_Top,
+.footerInnerLeft_Top, .mainPart, .overFooter, .overFooter_ForBlackDays, .linesDiv, .mainPartBigPart_Footer {
+    display: flex;
 }
 
 .underHeaderInnerTop4_Inner, .underHeaderInnerTop4, .underHeaderInnerTop3,
@@ -768,21 +790,6 @@ p, h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.footerInner, .overFooterBottom, .headerInner, .overFooter_ForBlackDaysInner, .linesDivInner,
-.underHeaderInnerBottomLeft_InputAndFinder, .underHeaderInnerBottomRight, .underHeaderInnerBottomRight3,
-.bigSlider, .mainPart_ForBigSliderAnd2Div_2divBox, .underHeaderInnerTop4_Inner, .underHeaderInnerTop4,
-.underHeaderInnerTop2, .headerLeft_LeftSide, .underHeaderInnerBottomRight2, .footer, .underHeaderInnerTop3,
-.mainPart_ForBigSliderAnd2Div_2divBox_Top, .underHeaderInnerBottomRight1, .header, .underHeaderInner, .linesDiv_Circle_Box,
-.underHeaderInnerBottomLeft_InputAndFinder_Finder, .button-catalog, .underHeader, .underHeaderInnerTop1,
-.headerRight, .headerLeft, .mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Center, .underHeaderInnerBottom,
-.mainPart_ForBigSliderAnd2Div, .underHeaderInnerBottomLeft, .underHeaderInnerTop, .underHeaderInnerTop5,
-.absoluteInSlider_ForPrices, .mainPartBigPart_Center_BoxForItem_RatingDiv, .socialMeans, .overFooter_ForBlackDays_Box,
-.footerInnerRight_Bottom_ForInput, .footerInnerLeft_Bottom, .mainPartBigPart_Center_Bottom, .mainPartBigPart_Center_Top,
-.mainPartBigPart_Center_BoxForItem_QueryPrice, .mainPartBigPart_Center_BoxForItem_QueryPrice2,
-.mainPart_ForBigSliderAnd2Div_2divBox_TopInner_Bottom, .footerInnerRight_Middle, .footerInnerRight_Top,
-.footerInnerLeft_Top, .mainPart, .overFooter, .overFooter_ForBlackDays, .linesDiv, .mainPartBigPart_Footer {
-    display: flex;
-}
 
 .mainPartBigPart_Center_BoxForItem_QueryPrice a, .absoluteInSlider p:nth-child(2), .footerInnerRight_Middle a,
 .absoluteInSlider_ForPrices p:last-child, .underHeaderInnerBottomLeft_InputAndFinder_InputBox_Input,
